@@ -5,7 +5,8 @@ import About from './About.jsx';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import "./Server"
 import Vanslist from './Vanslist.jsx';
-import VanDetail from './pages/vanDetail.jsx';
+// import VanDetail from './pages/vanDetail.jsx';
+import VanDetail from './src/pages/vanDetail.jsx';
 
 const Root = () => (
   <React.StrictMode>
